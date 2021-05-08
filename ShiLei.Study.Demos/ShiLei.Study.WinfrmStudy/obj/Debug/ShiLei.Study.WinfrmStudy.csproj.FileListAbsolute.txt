@@ -1,0 +1,10 @@
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\bin\Debug\ShiLei.Study.WinfrmStudy.exe.config
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\bin\Debug\ShiLei.Study.WinfrmStudy.exe
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\bin\Debug\ShiLei.Study.WinfrmStudy.pdb
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.csprojAssemblyReference.cache
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmCalculation.resources
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.Properties.Resources.resources
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.csproj.GenerateResource.cache
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.csproj.CoreCompileInputs.cache
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.exe
+D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.pdb
