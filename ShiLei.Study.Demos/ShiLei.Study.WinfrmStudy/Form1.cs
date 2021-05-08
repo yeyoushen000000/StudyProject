@@ -16,5 +16,25 @@ namespace ShiLei.Study.WinfrmStudy
         {
             InitializeComponent();
         }
+
+        #region 1.0 委托操作按钮
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form frmOne = new frmDelegate();
+            frmOne.ShowDialog();
+        }
+        #endregion
+
+        #region 2.0  Config配置文件操作按钮
+        //处理配置项窗口
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form frmOne = new frmConfigFileSetting();
+            frmOne.ShowDialog();
+        }
+        #endregion
+
+      
+
     }
 }

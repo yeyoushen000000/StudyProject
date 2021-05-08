@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ShiLei.Study.WinfrmStudy
 {
-    public partial class frmCalculation : Form
+    public partial class frmDelegate : Form
     {
 
 
@@ -19,7 +19,7 @@ namespace ShiLei.Study.WinfrmStudy
         //创建一个委托对象
         calculate<int> calMethod;
 
-        public frmCalculation()
+        public frmDelegate()
         {
             InitializeComponent();
         }

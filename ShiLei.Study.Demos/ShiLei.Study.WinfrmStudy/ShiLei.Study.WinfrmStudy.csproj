@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,16 +53,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCalculation.cs">
+    <Compile Include="frmDelegate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCalculation.Designer.cs">
-      <DependentUpon>frmCalculation.cs</DependentUpon>
+    <Compile Include="frmDelegate.Designer.cs">
+      <DependentUpon>frmDelegate.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmConfigFileSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfigFileSetting.Designer.cs">
+      <DependentUpon>frmConfigFileSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\studentProperty.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmCalculation.resx">
-      <DependentUpon>frmCalculation.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDelegate.resx">
+      <DependentUpon>frmDelegate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfigFileSetting.resx">
+      <DependentUpon>frmConfigFileSetting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

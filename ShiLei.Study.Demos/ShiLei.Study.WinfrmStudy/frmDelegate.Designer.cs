@@ -1,7 +1,7 @@
 ﻿
 namespace ShiLei.Study.WinfrmStudy
 {
-    partial class frmCalculation
+    partial class frmDelegate
     {
         /// <summary>
         /// Required designer variable.
