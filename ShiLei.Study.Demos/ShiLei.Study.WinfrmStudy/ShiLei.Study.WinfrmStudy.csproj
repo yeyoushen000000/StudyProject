@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -47,11 +65,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDelegate.cs">
       <SubType>Form</SubType>
@@ -65,17 +83,63 @@
     <Compile Include="frmConfigFileSetting.Designer.cs">
       <DependentUpon>frmConfigFileSetting.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmProcessOperate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcessOperate.Designer.cs">
+      <DependentUpon>frmProcessOperate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXmlFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXmlFile.Designer.cs">
+      <DependentUpon>frmXmlFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistryKey\frmRegisterKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistryKey\frmRegisterKey.Designer.cs">
+      <DependentUpon>frmRegisterKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSocketClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSocketClient.Designer.cs">
+      <DependentUpon>frmSocketClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSocketService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSocketService.Designer.cs">
+      <DependentUpon>frmSocketService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Socket.cs" />
     <Compile Include="Models\studentProperty.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDelegate.resx">
       <DependentUpon>frmDelegate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmConfigFileSetting.resx">
       <DependentUpon>frmConfigFileSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcessOperate.resx">
+      <DependentUpon>frmProcessOperate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXmlFile.resx">
+      <DependentUpon>frmXmlFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistryKey\frmRegisterKey.resx">
+      <DependentUpon>frmRegisterKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSocketClient.resx">
+      <DependentUpon>frmSocketClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSocketService.resx">
+      <DependentUpon>frmSocketService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -86,6 +150,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,6 +163,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShiLei.Study.Tools\ShiLei.Study.Tools.csproj">
+      <Project>{69919d9e-0413-4191-bfaf-521429fa6067}</Project>
+      <Name>ShiLei.Study.Tools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

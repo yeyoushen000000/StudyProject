@@ -5,6 +5,33 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiLei.Study.WinfrmStudy", "ShiLei.Study.WinfrmStudy\ShiLei.Study.WinfrmStudy.csproj", "{392C250C-326E-44D3-BE7C-38F6F68E4F65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiLei.Study.Tools", "ShiLei.Study.Tools\ShiLei.Study.Tools.csproj", "{69919D9E-0413-4191-BFAF-521429FA6067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiLei.Study.WcfStudy", "ShiLei.Study.WcfStudy\ShiLei.Study.WcfStudy.csproj", "{5C9458CC-821A-40AB-8C59-BC1F17436248}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ShiLei.Study.WcfHost", "ShiLei.Study.WcfHost\", "{F41EFB59-65C2-411F-A788-E2B340AC4DD8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{5c9458cc-821a-40ab-8c59-bc1f17436248}|ShiLei.Study.WcfStudy.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58982"
+		Debug.AspNetCompiler.PhysicalPath = "ShiLei.Study.WcfHost\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58982\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58982"
+		Release.AspNetCompiler.PhysicalPath = "ShiLei.Study.WcfHost\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58982\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58982"
+		SlnRelativePath = "ShiLei.Study.WcfHost\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +42,18 @@ Global
 		{392C250C-326E-44D3-BE7C-38F6F68E4F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{392C250C-326E-44D3-BE7C-38F6F68E4F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{392C250C-326E-44D3-BE7C-38F6F68E4F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69919D9E-0413-4191-BFAF-521429FA6067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69919D9E-0413-4191-BFAF-521429FA6067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69919D9E-0413-4191-BFAF-521429FA6067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69919D9E-0413-4191-BFAF-521429FA6067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9458CC-821A-40AB-8C59-BC1F17436248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9458CC-821A-40AB-8C59-BC1F17436248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9458CC-821A-40AB-8C59-BC1F17436248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9458CC-821A-40AB-8C59-BC1F17436248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F41EFB59-65C2-411F-A788-E2B340AC4DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41EFB59-65C2-411F-A788-E2B340AC4DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41EFB59-65C2-411F-A788-E2B340AC4DD8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41EFB59-65C2-411F-A788-E2B340AC4DD8}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

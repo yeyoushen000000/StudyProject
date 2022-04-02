@@ -45,7 +45,9 @@ namespace ShiLei.Study.WinfrmStudy.Models
             {
                 studentPropertySection node = new studentPropertySection(item);
                 lsTemp.Add(node);
+                
             }
+
             return lsTemp;
         }
     }

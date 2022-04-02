@@ -1,0 +1,6 @@
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WcfStudy\obj\Debug\ShiLei.Study.WcfStudy.csproj.CoreCompileInputs.cache
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WcfStudy\bin\Debug\ShiLei.Study.WcfStudy.dll.config
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WcfStudy\bin\Debug\ShiLei.Study.WcfStudy.dll
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WcfStudy\bin\Debug\ShiLei.Study.WcfStudy.pdb
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WcfStudy\obj\Debug\ShiLei.Study.WcfStudy.dll
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WcfStudy\obj\Debug\ShiLei.Study.WcfStudy.pdb
