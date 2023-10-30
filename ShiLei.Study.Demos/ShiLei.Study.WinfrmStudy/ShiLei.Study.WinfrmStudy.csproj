@@ -8,10 +8,12 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>ShiLei.Study.WinfrmStudy</RootNamespace>
     <AssemblyName>ShiLei.Study.WinfrmStudy</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -65,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDelegate\DelegateMain.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,12 +91,19 @@
     <Compile Include="frmProcessOperate.Designer.cs">
       <DependentUpon>frmProcessOperate.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThreads.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThreads.Designer.cs">
+      <DependentUpon>frmThreads.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmXmlFile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmXmlFile.Designer.cs">
       <DependentUpon>frmXmlFile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Book.cs" />
     <Compile Include="RegistryKey\frmRegisterKey.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +138,9 @@
     <EmbeddedResource Include="frmProcessOperate.resx">
       <DependentUpon>frmProcessOperate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmThreads.resx">
+      <DependentUpon>frmThreads.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmXmlFile.resx">
       <DependentUpon>frmXmlFile.cs</DependentUpon>
     </EmbeddedResource>
@@ -149,6 +161,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
@@ -181,6 +194,9 @@
       <Project>{69919d9e-0413-4191-bfaf-521429fa6067}</Project>
       <Name>ShiLei.Study.Tools</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entity\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -106,5 +106,56 @@ namespace ShiLei.Study.WinfrmStudy
 
         #endregion
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+
+            #region  Switch模式匹配 net core 版本
+            //int obj = 10;
+            //switch (obj)
+            //{
+            //    case (> 0) and (< 5):
+            //        Console.WriteLine($"小于5的数");
+            //        break;
+            //    case (> 5) and (< 10):
+            //        Console.WriteLine("小于10的数");
+            //        break;
+            //    case (>= 10) and (< 20):
+            //        Console.WriteLine("小于20的数");
+            //        break;
+            //    default:
+            //        Console.WriteLine("未知类型");
+            //        break;
+            //}
+            #endregion
+
+
+            //if < 5 { }
+            //else if < 8{ }
+            //else if < 14{ }
+            //else { }
+        }
+
+
+        #region 多线程编程
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form frmOne = new frmThreads();
+            frmOne.ShowDialog();
+        }
+        #endregion
+
+
+        ///net core 版本
+        //public int GetStatus(int seconds)
+        //{
+        //    return seconds switch
+        //    {
+        //        >= 0 and < 5 => 0,
+        //        >= 5 and < 8 => 1,
+        //        >= 8 and < 14 => 2,
+        //        _ => -1 // 其他情况
+        //    };
+        //}
     }
 }

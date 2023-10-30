@@ -3,3 +3,4 @@ D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Tools\bin\Debug\
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Tools\obj\Debug\ShiLei.Study.Tools.csproj.CoreCompileInputs.cache
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Tools\obj\Debug\ShiLei.Study.Tools.dll
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Tools\obj\Debug\ShiLei.Study.Tools.pdb
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Tools\obj\Debug\ShiLei.Study.Tools.csproj.AssemblyReference.cache

@@ -12,7 +12,6 @@ namespace ShiLei.Study.Tools
 {
 
     public class XmlHelper
-
     {
 
         //#region 公共变量
@@ -154,39 +153,23 @@ namespace ShiLei.Study.Tools
         //        xmldoc.Save(XmlFile);
 
         //        return true;
-
         //    }
-
         //    catch (Exception e)
-
         //    {
-
-
         //        throw newException(e.Message);
-
         //    }
-
         //}
-
         ///// <summary>
-
         ///// 更新节点
-
         ///// </summary>
-
         ///// <paramname="XmlFile">Xml文件路径</param>
-
         ///// <paramname="fatherNode">需要更新节点的上级节点,要匹配的XPath表达式(例如:"//节点名//子节点名)</param>
-
         ///// <paramname="htAtt">需要更新的属性表，Key代表需要更新的属性，Value代表更新后的值</param>
-
         ///// <param name="htSubNode">需要更新的子节点的属性表，Key代表需要更新的子节点名字Name,Value代表更新后的值InnerText</param>
-
         ///// <returns>返回真为更新成功，否则失败</returns>
-
         //public bool UpdateNode(string XmlFile, string fatherNode, Hashtable htAtt, Hashtable htSubNode)
 
-        //{
+    }//{
 
 
         //    try
@@ -817,6 +800,7 @@ namespace ShiLei.Study.Tools
 
         //#endregion
 
-    }
+    
+    
 
 }

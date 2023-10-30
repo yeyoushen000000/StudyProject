@@ -10,7 +10,6 @@ D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmSt
 D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.Form1.resources
 D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmDelegate.resources
 D:\001工作\D学习内容\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmConfigFileSetting.resources
-D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.csprojAssemblyReference.cache
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmDelegate.resources
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmConfigFileSetting.resources
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmSocketClient.resources
@@ -30,3 +29,6 @@ D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.csproj.CopyComplete
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmProcessOperate.resources
 D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmXmlFile.resources
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.csproj.AssemblyReference.cache
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.csproj.SuggestedBindingRedirects.cache
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.WinfrmStudy\obj\Debug\ShiLei.Study.WinfrmStudy.frmThreads.resources

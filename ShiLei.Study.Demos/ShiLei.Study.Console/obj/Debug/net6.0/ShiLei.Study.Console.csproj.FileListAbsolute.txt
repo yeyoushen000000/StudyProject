@@ -1,0 +1,15 @@
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\bin\Debug\net6.0\ShiLei.Study.Console.exe
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\bin\Debug\net6.0\ShiLei.Study.Console.deps.json
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\bin\Debug\net6.0\ShiLei.Study.Console.runtimeconfig.json
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\bin\Debug\net6.0\ShiLei.Study.Console.dll
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\bin\Debug\net6.0\ShiLei.Study.Console.pdb
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.csproj.AssemblyReference.cache
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.AssemblyInfoInputs.cache
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.AssemblyInfo.cs
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.csproj.CoreCompileInputs.cache
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.dll
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\refint\ShiLei.Study.Console.dll
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.pdb
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ShiLei.Study.Console.genruntimeconfig.cache
+D:\005程序学习\StudyProject\ShiLei.Study.Demos\ShiLei.Study.Console\obj\Debug\net6.0\ref\ShiLei.Study.Console.dll

@@ -144,10 +144,6 @@ namespace ShiLei.Study.WinfrmStudy
         #endregion
 
 
-
-     
-
-
         #region 操作注册表设置软件自启动
         private void button6_Click(object sender, EventArgs e)
         {
@@ -158,7 +154,6 @@ namespace ShiLei.Study.WinfrmStudy
             string processName = Path.GetFileName(fullPath);
 
             MessageInfo result = RegistryHelper.ModifyRegistryKey(RegistryHelper.Hkey_LocalMachine, RegKey_RunExe, processName, fullPath, RegistryValueKind.String);
-
 
         }
         #endregion
